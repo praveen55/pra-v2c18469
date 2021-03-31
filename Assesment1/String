@@ -1,0 +1,48 @@
+package java;
+public class stringrep {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="mummy";
+	    int count = 0 ;
+
+	    for (int i = 0; i < s.length(); i++) {
+
+	        for (int j = 0; j < s.length(); j++) {
+
+	            if(s.charAt(i)==s.charAt(j))
+	            {
+	                count++;
+
+	            }
+	        }   
+	        System.out.println(s.charAt(i) + " Prints " + count + " Times ");
+	        count = 0;
+	    }
+	}
+}
+
+package java;
+public class stringrep1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+String s="Happy";
+	    int count = 0 ;
+
+	    for (int i = 0; i < s.length(); i++) {
+
+	        for (int j = 0; j < s.length(); j++) {
+
+	            if(s.charAt(i)==s.charAt(j))
+	            {
+	                count++;
+
+	            }
+	        }   
+	        System.out.println(s.charAt(i) + " Prints " + count + " Times ");
+	        count = 0;
+	    }
+	}
+}
