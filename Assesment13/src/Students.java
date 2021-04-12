@@ -56,19 +56,6 @@ public class Students {
 		.filter(a->a.Marks<35)
 		.forEach(a -> System.out.println("Fail : " + a.ID+ " " + a.name+ " " + a.Marks));
 		System.out.println();
-		
-		/*		for (Stud a : studentlist) {
-			if(a.Marks > 80) {
-				System.out.println("Distinction : "+a.ID +" "+ a.name + " "+ a.Marks);
-			}else if((a.Marks >=80) && ()) {
-				System.out.println("First Class : " + a.ID+ " "+ a.name+ " "+ a.Marks);
-			}else if(a.Marks>=60) {
-				System.out.println("Second Class : " + a.ID+ " " + a.name+ " " + a.Marks);
-			}else if(a.Marks>=50) {
-				System.out.println("Third Class : " + a.ID+ " " + a.name+ " "+ a.Marks);
-			}else if(a.Marks<35) {
-				System.err.println("Fail : " + a.ID+ " " + a.name+ " " + a.Marks);
-		}*/
 	}
 }
 
